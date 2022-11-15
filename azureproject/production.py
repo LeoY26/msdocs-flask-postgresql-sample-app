@@ -10,8 +10,8 @@ CSRF_TRUSTED_ORIGINS = ['https://'+ os.environ['WEBSITE_HOSTNAME']] if 'WEBSITE_
 # Configure Postgres database; the full username for PostgreSQL flexible server is
 # username (not @sever-name).
 DATABASE_URI = 'postgresql+psycopg2://{dbuser}:{dbpass}@{dbhost}/{dbname}'.format(
-    dbuser=os.environ['DBUSER'],
-    dbpass=os.environ['DBPASS'],
-    dbhost=os.environ['DBHOST'] + ".postgres.database.azure.com",
-    dbname=os.environ['DBNAME']
+    dbuser=os.environ['sxezztjrqm'],
+    dbpass=os.environ['G43TD67KY2O6X771$'],
+    dbhost=os.environ['webappdbleo-server'] + ".postgres.database.azure.com",
+    dbname=os.environ['postgres']
 )
